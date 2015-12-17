@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Be.Windows.Forms;
 
 namespace unFARC
 {
@@ -111,7 +112,12 @@ namespace unFARC
             return a;
         }
 
-        
+
+        public static void EnableTab(TabPage page, bool enable)
+        {
+            foreach (Control ctl in page.Controls) ctl.Enabled = enable;
+        }
+
         public static string ReadUniCod(BinaryReader bst, uint offset, uint lenght)
         {
             string a = "";
@@ -207,6 +213,20 @@ namespace unFARC
             }
 
             return a;
+        }
+
+        public static void setHexBox(HexBox hbox, byte[] input)
+        {
+            MemoryStream mr = new MemoryStream(input);
+            DynamicFileByteProvider dynamicFileByteProvider = null;
+
+            try
+            {
+                dynamicFileByteProvider = new DynamicFileByteProvider(mr);
+            }
+            catch { }
+
+            hbox.ByteProvider = dynamicFileByteProvider;
         }
 
         public static void CopySection(Stream input, string targetFile, int length, uint position)

@@ -17,7 +17,7 @@ namespace unFARC.archive
         public uint Offset;
         public uint Size;
         public uint unk1;
-        public byte[] unk2;
+        public uint unk2;
     }
 
     public class SIR0Msg
@@ -53,7 +53,7 @@ namespace unFARC.archive
                     _header.FAT[i].index = i;
                     _header.FAT[i].Offset = bst.ReadUInt32();
                     _header.FAT[i].unk1 = bst.ReadUInt32();
-                    _header.FAT[i].unk2 = bst.ReadBytes(4);
+                    _header.FAT[i].unk2 = bst.ReadUInt32();
                 }
             }
 
