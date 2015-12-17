@@ -1,0 +1,576 @@
+[
+  {
+    "code": "0",
+    "values": 0,
+    "code_name": "null",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "A03A",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": "?"
+  },
+  {
+    "code": "A057",
+    "values": 0,
+    "code_name": "-",
+    "code_group": "Type Icon",
+    "code_description": "Ground"
+  },
+  {
+    "code": "A072",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "A074",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "A09B",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": "Selected Choice #1"
+  },
+  {
+    "code": "A09C",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": "Selected Choice #2"
+  },
+  {
+    "code": "A0A2",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": "?"
+  },
+  {
+    "code": "A0BC",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": "Main Menu #1470"
+  },
+  {
+    "code": "A105",
+    "values": 0,
+    "code_name": "-",
+    "code_group": "Icon",
+    "code_description": "Icon : pink box? XD?"
+  },
+  {
+    "code": "A200",
+    "values": 1,
+    "code_name": "CName",
+    "code_group": "Client",
+    "code_description": "Client Target Name (on dungeon)"
+  },
+  {
+    "code": "A201",
+    "values": 1,
+    "code_name": "CNameD",
+    "code_group": "Client",
+    "code_description": "Client Target Name"
+  },
+  {
+    "code": "A300",
+    "values": 1,
+    "code_name": "CItem",
+    "code_group": "Client Item",
+    "code_description": "Client item id or connection orb request"
+  },
+  {
+    "code": "A420",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "B008",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "B100",
+    "values": 0,
+    "code_name": "TParagraph",
+    "code_group": "Text Paragraph",
+    "code_description": "start paragraph"
+  },
+  {
+    "code": "B101",
+    "values": 0,
+    "code_name": "ETParagraph",
+    "code_group": "Text Paragraph",
+    "code_description": "End paragraph"
+  },
+  {
+    "code": "B300",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "BD03",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "BD07",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "BD09",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "C101",
+    "values": 0,
+    "code_name": "-",
+    "code_group": "Text Color",
+    "code_description": "Text Color"
+  },
+  {
+    "code": "C105",
+    "values": 0,
+    "code_name": "TCBLUE",
+    "code_group": "Text Color",
+    "code_description": "Text Color Blue"
+  },
+  {
+    "code": "C10F",
+    "values": 0,
+    "code_name": "ETC",
+    "code_group": "Text Color",
+    "code_description": "End Text Color"
+  },
+  {
+    "code": "C200",
+    "values": 0,
+    "code_name": "TCenter",
+    "code_group": "Adjustment Text",
+    "code_description": " Center"
+  },
+  {
+    "code": "C300",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "CA00",
+    "values": 0,
+    "code_name": "Link",
+    "code_group": "Page Linked",
+    "code_description": "LINK"
+  },
+  {
+    "code": "CB00",
+    "values": 0,
+    "code_name": "ELink",
+    "code_group": null,
+    "code_description": "End LINK"
+  },
+  {
+    "code": "D000",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "D100",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "D727",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "D730",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "D747",
+    "values": 1,
+    "code_name": "ItemDamage",
+    "code_group": "Item",
+    "code_description": null
+  },
+  {
+    "code": "D752",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Item",
+    "code_description": null
+  },
+  {
+    "code": "D753",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Item",
+    "code_description": null
+  },
+  {
+    "code": "D754",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Item",
+    "code_description": null
+  },
+  {
+    "code": "D760",
+    "values": 1,
+    "code_name": "ItemTreasure",
+    "code_group": "Item",
+    "code_description": "Treasure Collection Item"
+  },
+  {
+    "code": "D7FA",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "D89E",
+    "values": 1,
+    "code_name": "PokemonID",
+    "code_group": "Pokemon string",
+    "code_description": "Pokemon id for get pokemon string name"
+  },
+  {
+    "code": "D934",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Move string",
+    "code_description": "Move TM ?"
+  },
+  {
+    "code": "D955",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Move string",
+    "code_description": null
+  },
+  {
+    "code": "D9F7",
+    "values": 1,
+    "code_name": "MovesID",
+    "code_group": "Move string",
+    "code_description": "Move id for get pokemon move name"
+  },
+  {
+    "code": "DE01",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE02",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE03",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE04",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE05",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE06",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE07",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE08",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE09",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE0A",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE0B",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE0C",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE0D",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE0E",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE0F",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE10",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE11",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE39",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "DE3B",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "DE44",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE45",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE46",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE47",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE48",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE49",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "DE4A",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Status",
+    "code_description": null
+  },
+  {
+    "code": "E401",
+    "values": 2,
+    "code_name": "-",
+    "code_group": "Damage Multiplier",
+    "code_description": "self damage"
+  },
+  {
+    "code": "E402",
+    "values": 2,
+    "code_name": "-",
+    "code_group": "Damage Multiplier",
+    "code_description": "Other damage"
+  },
+  {
+    "code": "EE00",
+    "values": 0,
+    "code_name": "NDialog",
+    "code_group": "Dialog",
+    "code_description": "Next dialog screen"
+  },
+  {
+    "code": "F601",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "F800",
+    "values": 1,
+    "code_name": "LocClient",
+    "code_group": "Location",
+    "code_description": "Client location connection orb request"
+  },
+  {
+    "code": "F801",
+    "values": 1,
+    "code_name": "Location",
+    "code_group": "Location",
+    "code_description": null
+  },
+  {
+    "code": "F803",
+    "values": 1,
+    "code_name": "-",
+    "code_group": "Location",
+    "code_description": null
+  },
+  {
+    "code": "F806",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "F807",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "FC02",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "FC04",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "FC0C",
+    "values": 0,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": null
+  },
+  {
+    "code": "FD01",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": "last count on #1467"
+  },
+  {
+    "code": "FD02",
+    "values": 1,
+    "code_name": "-",
+    "code_group": null,
+    "code_description": "max count on #1467"
+  }
+]
