@@ -5,9 +5,9 @@ Utilities for unpacking tool for FARC format and some format on Pokemon mystery 
 
 Some feature (for unpacking) :
 - Unpack FARC file on PMD 3DS game as raw file
-- Automatic convert some file into readable format
+- Automatic convert some file into readable (for non technical user) format
 	- convert message format to *.txt file (with external code handle on json file)
-	- convert portrait graphic to *.png file
+	- convert potrait graphic to *.png file
 	- convert *.*cte image format to *.png file 
 - Utilities :
 	- Message Viewer.
@@ -20,12 +20,12 @@ Special Thanks to :
 
 Library :
 - [json.net](http://www.newtonsoft.com/json) for handle json file
-- [FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox) for viewing text like text editor (like notepad++)
+- [FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox) for viewing text (like notepad++ app)
 - [hexbox](http://sourceforge.net/projects/hexbox/), for view binary file as hex view
 - zlib
 
 Tools for build this :
-- Microsoft Visual Studio 2015 Comunity Edition Update 1
+- Microsoft Visual Studio 2015 Community Edition Update 1
 - .Net Framework 4.0, C# 5.0, it might work with mono
 
 ![](http://s17.postimg.org/hfg06g817/614.png) > I hope this tool usefull for you
