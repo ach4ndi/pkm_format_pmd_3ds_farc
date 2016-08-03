@@ -1,6 +1,8 @@
 unFARC
 ==================
 
+[![Build Status](https://travis-ci.org/andibadra/unFARC.svg?branch=master)](https://travis-ci.org/andibadra/unFARC)
+
 Utilities for unpacking tool for FARC format and some format on Pokemon mystery dungeon 3DS games. This tool support FARC version 4 and 5 (used on PMD 3DS games).
 
 Some feature (for unpacking) :

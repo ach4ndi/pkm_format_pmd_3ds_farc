@@ -300,5 +300,30 @@ namespace unFARC
                 }
             }
         }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            StringBuilder build = new StringBuilder();
+            if (farcfile.Header.Volume[0].Type == 5)
+            {
+                dataGridView1.Rows.Clear();
+
+                int lenghtfile = (int)((SIR0f5)farcfile.FARCFAT).Header.FileCount;
+                this.tabPage5.Text = "Files [" + lenghtfile + "]";
+
+                for (int i = 0; i < lenghtfile; i++)
+                {
+                    build.Append(i).Append(",");
+                    build.Append(((SIR0f5)farcfile.FARCFAT).Header.FAT[i].FilenameString).Append(",");
+                    build.Append(((SIR0f5)farcfile.FARCFAT).Header.FAT[i].DataLenght).Append(",");
+                    build.Append(((SIR0f5)farcfile.FARCFAT).Header.FAT[i].FileNameOffset.toHexString()).Append(",");
+                    build.Append((int)((SIR0f5)farcfile.FARCFAT).Header.FAT[i].FileNameOffset).Append(",");
+                    build.Append(i).Append(",");
+                    build.Append(Environment.NewLine);
+                }
+
+                Clipboard.SetText(build.ToString());
+            }
+        }
     }
 }

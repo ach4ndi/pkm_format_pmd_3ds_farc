@@ -37,13 +37,13 @@
       <HintPath>D:\Data\CompBuild\Be.Windows.Forms.HexBox.dll</HintPath>
     </Reference>
     <Reference Include="FastColoredTextBox">
-      <HintPath>D:\Download\Archive\FastColoredTextBox-master\Binary\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\..\Library\FastColoredTextBox.dll</HintPath>
     </Reference>
     <Reference Include="Ionic.Zlib">
       <HintPath>D:\Public\Git\unFARC\Library\Ionic.Zlib.dll</HintPath>
     </Reference>
     <Reference Include="LibEveryFileExplorer">
-      <HintPath>D:\Download\Archive\EveryFileExplorer-master\LibEveryFileExplorer\bin\Debug\LibEveryFileExplorer.dll</HintPath>
+      <HintPath>..\..\Library\LibEveryFileExplorer.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>D:\Data\CompBuild\Newtonsoft.Json.dll</HintPath>

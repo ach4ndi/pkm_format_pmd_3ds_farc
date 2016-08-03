@@ -95,6 +95,7 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button7 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button8 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -487,6 +488,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.button8);
             this.tabPage5.Controls.Add(this.button6);
             this.tabPage5.Controls.Add(this.dataGridView1);
             this.tabPage5.Controls.Add(this.label8);
@@ -502,9 +504,9 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(6, 26);
+            this.button6.Location = new System.Drawing.Point(31, 26);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.Size = new System.Drawing.Size(50, 23);
             this.button6.TabIndex = 22;
             this.button6.Text = "List";
             this.button6.UseVisualStyleBackColor = true;
@@ -644,7 +646,7 @@
             this.groupBox3.Controls.Add(this.radioButton4);
             this.groupBox3.Location = new System.Drawing.Point(6, 208);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(605, 96);
+            this.groupBox3.Size = new System.Drawing.Size(588, 96);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Extracting Mode";
@@ -662,7 +664,7 @@
             "SMD/GI - Detect IMG cte file to PNG"});
             this.comboBox1.Location = new System.Drawing.Point(22, 65);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(565, 21);
+            this.comboBox1.Size = new System.Drawing.Size(548, 21);
             this.comboBox1.TabIndex = 3;
             // 
             // radioButton6
@@ -695,7 +697,7 @@
             this.groupBox2.Controls.Add(this.radioButton7);
             this.groupBox2.Location = new System.Drawing.Point(6, 132);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(605, 70);
+            this.groupBox2.Size = new System.Drawing.Size(588, 70);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Renaming Option";
@@ -734,7 +736,7 @@
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Location = new System.Drawing.Point(6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(605, 120);
+            this.groupBox1.Size = new System.Drawing.Size(588, 120);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Extract Option";
@@ -754,7 +756,7 @@
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.Location = new System.Drawing.Point(576, 84);
+            this.button3.Location = new System.Drawing.Point(559, 84);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(29, 20);
             this.button3.TabIndex = 3;
@@ -768,7 +770,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox8.Location = new System.Drawing.Point(22, 85);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(552, 20);
+            this.textBox8.Size = new System.Drawing.Size(535, 20);
             this.textBox8.TabIndex = 4;
             // 
             // radioButton2
@@ -822,6 +824,16 @@
             this.textBox9.Size = new System.Drawing.Size(573, 20);
             this.textBox9.TabIndex = 16;
             this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(7, 26);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(23, 23);
+            this.button8.TabIndex = 23;
+            this.button8.Text = "Copy";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // MainForm
             // 
@@ -926,6 +938,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
     }
 }
 
